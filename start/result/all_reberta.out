@@ -1,0 +1,13 @@
+Evaluating:
+Input: /home/zshiap/NLP/ind_pro/stereo/crows-pairs/data/crows_pairs_anonymized.csv
+Model: roberta
+====================================================================================================
+====================================================================================================
+Total examples: 1508
+Metric score: 65.52
+Stereotype score: 66.87
+Anti-stereotype score: 57.8
+Num. neutral: 1 0.07
+====================================================================================================
+
+Successfully submitted job. You can monitor output in slurm_160093.out and errors in slurm_160093.err

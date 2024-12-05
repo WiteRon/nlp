@@ -1,0 +1,14 @@
+Passing a tuple of `past_key_values` is deprecated and will be removed in Transformers v4.48.0. You should pass an instance of `EncoderDecoderCache` instead, e.g. `past_key_values=EncoderDecoderCache.from_legacy_cache(past_key_values)`.
+Traceback (most recent call last):
+  File "/home/zshiap/NLP/ind_pro/finetune/flan-T5/eva_T5.py", line 68, in <module>
+  File "/home/zshiap/.conda/envs/nlp/lib/python3.10/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+  File "/home/zshiap/.conda/envs/nlp/lib/python3.10/site-packages/sklearn/metrics/_classification.py", line 1789, in precision_recall_fscore_support
+    labels = _check_set_wise_labels(y_true, y_pred, average, labels, pos_label)
+  File "/home/zshiap/.conda/envs/nlp/lib/python3.10/site-packages/sklearn/metrics/_classification.py", line 1564, in _check_set_wise_labels
+    present_labels = unique_labels(y_true, y_pred).tolist()
+  File "/home/zshiap/.conda/envs/nlp/lib/python3.10/site-packages/sklearn/utils/multiclass.py", line 114, in unique_labels
+    raise ValueError("Mix of label input types (string and number)")
+ValueError: Mix of label input types (string and number)
+
+ERROR conda.cli.main_run:execute(49): `conda run python /home/zshiap/NLP/ind_pro/finetune/flan-T5/eva_T5.py` failed. (See above for error)

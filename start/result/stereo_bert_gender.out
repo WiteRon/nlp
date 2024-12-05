@@ -1,0 +1,13 @@
+Evaluating:
+Input: /home/zshiap/NLP/ind_pro/stereo/data_process/selected.csv
+Model: bert
+====================================================================================================
+====================================================================================================
+Total examples: 262
+Metric score: 58.02
+Stereotype score: 55.35
+Anti-stereotype score: 62.14
+Num. neutral: 0 0.0
+====================================================================================================
+
+Successfully submitted job. You can monitor output in slurm_160056.out and errors in slurm_160056.err

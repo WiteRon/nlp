@@ -1,0 +1,13 @@
+Evaluating:
+Input: /home/zshiap/NLP/ind_pro/stereo/data_process/selected.csv
+Model: roberta
+====================================================================================================
+====================================================================================================
+Total examples: 262
+Metric score: 58.78
+Stereotype score: 59.75
+Anti-stereotype score: 57.28
+Num. neutral: 0 0.0
+====================================================================================================
+
+Successfully submitted job. You can monitor output in slurm_160082.out and errors in slurm_160082.err
